@@ -98,7 +98,7 @@ manley_snapper.jpg
 parasound_haloa23.jpg
 
 
-(Forforstærkere)
+*(Forforstærkere)*
 Creek_OBH_22_Passive_Preamp.jpg
 parasound_classic7100.jpg
 parasound_halop3.jpg
