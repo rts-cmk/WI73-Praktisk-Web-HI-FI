@@ -1,4 +1,4 @@
-### ### ### # Projektopgave HI-FI
+# Projektopgave HI-FI
  
 Redigeret af FRG og  AMO 
  
