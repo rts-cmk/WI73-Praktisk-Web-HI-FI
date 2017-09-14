@@ -1,9 +1,9 @@
 # Projektopgave HI-FI
- 
+
 Redigeret af FRG og  AMO 
- 
-Opgavebeskrivelse 
- 
+
+## Opgavebeskrivelse
+
 Del 1:  ca. en uge 
  
 _Eleverne starter med at lave wireframes og gør en supersimpel, statisk HTML side klar med dummy data. 
@@ -132,9 +132,9 @@ Brug følgende liste, hvis I er i tvivl om hvilke kategorier de forskellige bill
   
 (Rørforstærkere) 
   
-    jolida_JD102b.jpg 
-    jolida_JD202a.jpg 
-    jolida_JD300b.jpg 
-    jolida_JD302b.jpg 
-    jolida_JD502b.jpg 
+  *  jolida_JD102b.jpg 
+  *  jolida_JD202a.jpg 
+  *  jolida_JD300b.jpg 
+  *  jolida_JD302b.jpg 
+  *  jolida_JD502b.jpg 
  
