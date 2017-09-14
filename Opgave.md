@@ -1,4 +1,4 @@
-# Projektopgave HI-FI
+### ### ### # Projektopgave HI-FI
  
 Redigeret af FRG og  AMO 
  
@@ -14,26 +14,26 @@ _Eleverne starter med at lave wireframes og gør en supersimpel, statisk HTML si
 * Kontaktside 
 * Footer 
  
- ### Forsiden 
+### Forsiden 
 Forsidetekst og billede af butikken
 
 De seneste X antal produkter 
  
-Produktsiden 
+### Produktsiden 
 Kan vise ét specifikt produkt 
 Alle produkter hentes via et Api og udskrives med fetch, samt kategoriens titel 
  
-Kontaktsiden 
+### Kontaktsiden 
 Formulardata indsættes i databasen via et api-kald 
 Minimum html5 validering 
 Meddelelse om at kontaktformularen er sendt 
  
-Alle sider 
+### Alle sider 
 Menu 
 Søgefunktion til produkter til visning på produktsiden 
 Footer med kontaktinfo 
  
-Routes 
+### Routes 
 /forside 
 /produkt/:id 
 /produkt/kategori/:id 
@@ -41,37 +41,37 @@ Routes 
 /produkt/soeg/:tekst 
 /kontakt 
  
-Database 
+### Database 
 ER diagram 
 Rigtige datatyper 
 Relationer i databasen 
  
 Dokumentation af kode og funktionalitet i markdown. 
-API 
+### API 
 Funktioner 
  
  
-Gruppearbejde 
+### Gruppearbejde 
 Opgaven kan løses selvstændigt eller i grupper 
 Hvis det er i grupper skal ALLE stadig løse opgaven, men i samarbejde med gruppen 
 Alle skal lave en arbejdsplan som ajourføres dagligt i en markdown på github 
  
-Github 
+### Github 
 Der skal commites flere gange om dagen. 
 Alle commit tekster på Github skal give mening. 
  
-Udleverede filer 
+### Udleverede filer 
 Billeder 
  
  
-Assorteret 
+### Assorteret 
  
 Ingen dynamisk menu i første omgang. 
 Produktsiden kan sagtens vise kategorinavne ved hvert produkt. 
 
 Sideskift
  
-Filnavne 
+### Filnavne 
 Det er anbefalet at flytte billederne, så alle filerne ligger i samme mappe. I næste del skal I nemlig i gang med backend (admin-delen), hvor I bl.a. skal lave en side til billedupload. Det kan måske give jer problemer i databasen, pga. stierne. 
   
   
