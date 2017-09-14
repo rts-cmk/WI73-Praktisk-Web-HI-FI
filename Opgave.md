@@ -1,21 +1,22 @@
-Planlægning - HIFI Butikken 
+# Projektopgave HI-FI
  
-FRG,  AMO 
+Redigeret af FRG og  AMO 
  
 Opgavebeskrivelse 
  
 Del 1:  ca. en uge 
  
-Eleverne starter med at lave wireframes og gør en supersimpel, statisk HTML side klar med dummy data. 
-Menu 
-Forside 
-Produkt (ét produkt) 
-Produktliste 
-Kontaktside 
-Footer 
+_Eleverne starter med at lave wireframes og gør en supersimpel, statisk HTML side klar med dummy data. 
+* Menu 
+* Forside 
+* Produkt (ét produkt) 
+* Produktliste 
+* Kontaktside 
+* Footer 
  
-Forsiden 
-Forsidetekst og billede af butikken 
+ ### Forsiden 
+Forsidetekst og billede af butikken
+
 De seneste X antal produkter 
  
 Produktsiden 
