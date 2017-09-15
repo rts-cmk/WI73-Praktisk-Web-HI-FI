@@ -37,9 +37,9 @@ Produktet skal designes efter mobile first princippet, men nødvendigvis ikke im
 * Kontaktside 
  
 ### Forsiden 
-Forsidetekst og billeder af produkter
+* Forsidetekst og billeder af produkter
 
-Visning af udvalgte et eller flere udvalgte produkter (kan være seneste oprettede, et random produkt, eller andet du finder relevant)
+* Visning af udvalgte et eller flere udvalgte produkter (kan være seneste oprettede, et random produkt, eller andet du finder relevant)
  
 ### Produktsiden
 * Viser alle produkter inden for en bestemt kategori
@@ -56,16 +56,26 @@ Alle produkter hentes via et Api og udskrives med fetch. Over listen af produkte
 * Besked til brugeren om at formularen er sendt og modtaget (i databasen)
  
 ### Alle sider 
-Menu 
-Fritekst-søgefunktion til produkter og producenter (visning på produktsiden) 
-Footer med kontaktinfo 
+* Menu 
+* Fritekst-søgefunktion til produkter og producenter (visning på produktsiden) 
+* Footer med kontaktinfo 
  
 ### Forslag til routes 
-/forside 
+/forside
+
+ 
 /produkt/:id 
+
+
 /produkt/kategori/:id 
+
+
 /produkt/producent/:id 
+
+
 /produkt/soeg/:tekst 
+
+
 /kontakt 
  
 ### Database 
