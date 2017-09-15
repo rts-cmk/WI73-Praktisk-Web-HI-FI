@@ -1,6 +1,4 @@
-# Projektopgave HI-FI
-
-Redigeret af FRG og  AMO September 2017
+# Del 1 - Projektopgave HI-FI
 
 ### Om opgaven
 Denne opgave er første del af HI-FI og omhandler opsætning, navigation og hentning af data.
@@ -170,3 +168,4 @@ Brug følgende liste, hvis I er i tvivl om hvilke kategorier de forskellige bill
     * jolida_JD302b.jpg
     * jolida_JD502b.jpg 
  
+Redigeret af FRG og  AMO September 2017
