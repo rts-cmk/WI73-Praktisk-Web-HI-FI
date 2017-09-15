@@ -5,7 +5,11 @@ Redigeret af FRG og  AMO September 2017
 ### Om opgaven
 Denne opgave er første del af HI-FI og omhandler opsætning, navigation og hentning af data.
 
-Opgaven kan/bør løses i samarbejde, men alle skal lave sin egen løsning. Gruppearbejdet består i at diskutere løsningsforslag og implementering af kode og dokumentation.
+Opgaven kan løses selvstændigt eller i grupper.
+
+Hvis det er i grupper skal ALLE stadig løse opgaven, men i samarbejdediskutere løsningsforlag og implementering af kode og dokumentation. 
+
+Alle skal lave en arbejdsplan som ajourføres dagligt i en markdown på github 
 
 ### Opgavebeskrivelse
 
@@ -86,32 +90,16 @@ Relationer i databasen
 
 Dokumentation af kode og funktionalitet i markdown. 
 
-### API 
-Funktioner 
- 
- 
-### Gruppearbejde 
-Opgaven kan løses selvstændigt eller i grupper 
-Hvis det er i grupper skal ALLE stadig løse opgaven, men i samarbejde med gruppen 
-Alle skal lave en arbejdsplan som ajourføres dagligt i en markdown på github 
- 
-### Github 
-Der skal commites flere gange om dagen. 
-Alle commit tekster på Github skal give mening. 
- 
-### Udleverede filer 
-Billeder 
- 
- 
-### Assorteret 
- 
-Ingen dynamisk menu i første omgang. 
-Produktsiden kan sagtens vise kategorinavne ved hvert produkt. 
+### Github
+* Projektet skal med sin dokumentation lægges på github.
+* Der skal commites ved væsentlige ændringer eller færdiggørelse af en funktionalitet - og altid inden fyraften.
+* Alle commit tekster på Github skal give mening. 
 
-Sideskift
- 
-### Filnavne 
-Det er anbefalet at flytte billederne, så alle filerne ligger i samme mappe. I næste del skal I nemlig i gang med backend (admin-delen), hvor I bl.a. skal lave en side til billedupload. Det kan måske give jer problemer i databasen, pga. stierne.
+### Billedfiler
+Alle billeder ligger i en zippet fil fordelt i mapper.
+
+Du vælger om alle billeder skal ligge i én mappe eller om du vil bevare mappestrukturen. I næste del af opgaven skal du uploade til serveren og der har vi erfaring med at det kan være lidt mere indviklet, hvis filerne er fordelt i mapper - du bestemmer! (spørg evt. din vejleder)
+
  
 Brug følgende liste, hvis I er i tvivl om hvilke kategorier de forskellige billeder tilhører:
 
