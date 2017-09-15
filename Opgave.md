@@ -82,9 +82,10 @@ ER diagram 
 
 Rigtige datatyper 
 
-Relationer i databasen 
- 
+Relationer i databasen
+
 Dokumentation af kode og funktionalitet i markdown. 
+
 ### API 
 Funktioner 
  
