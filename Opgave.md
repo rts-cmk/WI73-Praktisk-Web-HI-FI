@@ -5,7 +5,7 @@ Redigeret af FRG og  AMO September 2017
 ### Om opgaven
 Denne opgave er første del af HI-FI og omhandler opsætning, navigation og hentning af data.
 
-Opgaven kan/bør løses i samarbejde, men alle skal lave sin egen løsning. Gruppearbejdet består i at diskutere løsningsforslag og implementering af kode og dokunemtation.
+Opgaven kan/bør løses i samarbejde, men alle skal lave sin egen løsning. Gruppearbejdet består i at diskutere løsningsforslag og implementering af kode og dokumentation.
 
 ### Opgavebeskrivelse
 
@@ -63,7 +63,6 @@ Alle produkter hentes via et Api og udskrives med fetch. Over listen af produkte
 ### Forslag til routes 
 /forside
 
- 
 /produkt/:id 
 
 
@@ -80,7 +79,9 @@ Alle produkter hentes via et Api og udskrives med fetch. Over listen af produkte
  
 ### Database 
 ER diagram 
+
 Rigtige datatyper 
+
 Relationer i databasen 
  
 Dokumentation af kode og funktionalitet i markdown. 
