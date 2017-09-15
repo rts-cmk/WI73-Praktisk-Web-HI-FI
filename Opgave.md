@@ -41,9 +41,12 @@ Forsidetekst og billeder af produkter
 
 Visning af udvalgte et eller flere udvalgte produkter (kan være seneste oprettede, et random produkt, eller andet du finder relevant)
  
-### Produktsiden 
-Kan vise ét specifikt produkt 
-Alle produkter hentes via et Api og udskrives med fetch, samt kategoriens titel 
+### Produktsiden
+* Viser alle produkter inden for en bestemt kategori
+* Visning af ét produkt ved klik på et produkt fra listen
+* Visning af produkter efter søgning
+
+Alle produkter hentes via et Api og udskrives med fetch. Over listen af produkter vises kategoriens titel.
  
 ### Kontaktsiden 
 Formulardata indsættes i databasen via et api-kald 
