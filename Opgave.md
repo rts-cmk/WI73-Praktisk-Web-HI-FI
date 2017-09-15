@@ -2,6 +2,10 @@
 
 Redigeret af FRG og  AMO September 2017
 
+### Om opgaven
+Denne opgave er første del af HI-FI og omhandler opsætning, navigation og hentning af data.
+
+Opgaven kan/bør løses i samarbejde, men alle skal lave sin egen løsning. Gruppearbejdet består i at diskutere løsningsforslag og implementering af kode og dokunemtation.
 
 ### Opgavebeskrivelse
 
@@ -28,17 +32,14 @@ Produktet skal designes efter mobile first princippet, men nødvendigvis ikke im
 
 
 ### Sider og indhold
-* Menu 
 * Forside 
-* Produkt (ét produkt) 
-* Produktliste 
+* Produktside
 * Kontaktside 
-* Footer 
  
 ### Forsiden 
-Forsidetekst og billede af butikken
+Forsidetekst og billeder af produkter
 
-De seneste X antal produkter 
+Visning af udvalgte et eller flere udvalgte produkter (kan være seneste oprettede, et random produkt, eller andet du finder relevant)
  
 ### Produktsiden 
 Kan vise ét specifikt produkt 
