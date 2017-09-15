@@ -9,6 +9,6 @@ Projektet består af 2 dele af ca. 1 uges varighed.
 
 ## Aflevering
 
-Første aflevering: Første del.
+Første aflevering: Del 1.
 
-Anden aflevering: Samlet projekt.
+Anden aflevering: Det samlede projekt.
