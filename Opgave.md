@@ -49,16 +49,18 @@ Visning af udvalgte et eller flere udvalgte produkter (kan være seneste oprette
 Alle produkter hentes via et Api og udskrives med fetch. Over listen af produkter vises kategoriens titel.
  
 ### Kontaktsiden 
-Formulardata indsættes i databasen via et api-kald 
-Minimum html5 validering 
-Meddelelse om at kontaktformularen er sendt 
+* Kontaktsiden indeholder informatiner om HI-FI butikken samt en kontaktformular.
+* Formulardata indsættes i databasen via et api
+
+* Formularfelter validers som minimum vha. html5 validering
+* Besked til brugeren om at formularen er sendt og modtaget (i databasen)
  
 ### Alle sider 
 Menu 
-Søgefunktion til produkter til visning på produktsiden 
+Fritekst-søgefunktion til produkter og producenter (visning på produktsiden) 
 Footer med kontaktinfo 
  
-### Routes 
+### Forslag til routes 
 /forside 
 /produkt/:id 
 /produkt/kategori/:id 
