@@ -1,12 +1,33 @@
-# Projektopgave HI-FI Ady2  
+# Projektopgave HI-FI
 
-Redigeret af FRG og  AMO 
+Redigeret af FRG og  AMO September 2017
 
-## Opgavebeskrivelse
 
-Del 1:  ca. en uge 
- 
-_Eleverne starter med at lave wireframes og gør en supersimpel, statisk HTML side klar med dummy data. 
+### Opgavebeskrivelse
+
+Du skal fremstille en webapplikation til en HI-FI webbutik, som præsenter butikkens produkter inddelt efter kagegori. Brugeren af sitet skal nemt og overskueligt finde rundt i de forskellige produkter og kunne fremsøge produkter vha. søgeord.
+
+### Tekniske krav
+**Frontend** skal løses vha. html, css og javascript, som gennem en api henter data fra backend.
+
+**Backend** skal via routes tilbyde forskellige udtræk af databasen, hvor alt dynamisk data er lagret.
+
+### Design og layout
+Du skal udarbejde et design og layout, dokumenteret via wireframes med beskrivelse i en markdown fil.<br>
+Produktet skal designes efter mobile first princippet, men nødvendigvis ikke implementeret til begge medier.
+
+### Forslag til arbejdsprocess
+* Planlægning: Afklaring af opgavens indhold defineret i en opgaveoversigt
+* Layout: Udarbejdelse af designskitser og wireframes
+* Opsæt html sider med navigation og dummy-data (statisk site)
+* Design databasen i et E/R diagram
+* Opret databasen og indsæt dummy-data
+* Programmér modules til dataudtræk
+* Opsæt server og routes
+* Dokumenter kode og funktionalitet i markdown-filer 
+
+
+### Sider og indhold
 * Menu 
 * Forside 
 * Produkt (ét produkt) 
