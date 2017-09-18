@@ -3,9 +3,9 @@
 ### Om opgaven
 Denne opgave er første del af HI-FI og omhandler opsætning, navigation og hentning af data. Læs hele opgavebeskrivelsen grundigt igennem inden du stiller spørgsmål.
 
-Opgaven kan løses selvstændigt eller i grupper.
+Opgaven kan løses selvstændigt.
 
-Hvis det er i grupper skal ALLE stadig løse opgaven, men i samarbejde diskuteres løsningsforlag og implementering af kode og dokumentation. 
+Hvis I arbejder i grupper skal ALLE stadig løse opgaven, men i samarbejde diskuteres løsningsforlag og implementering af kode og dokumentation. 
 
 Alle skal lave en arbejdsplan som ajourføres dagligt i en markdown på github.
 
