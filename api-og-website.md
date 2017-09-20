@@ -1,8 +1,8 @@
-# API service
+ # API service
 
 app.js
 
-npm install restify, restify-cors-middleware, mysql2
+npm install restify, restify-cors-middleware, mysql2 --save
 ```javascript
 const restify = require('restify');
 const corsmiddleware = require('restify-cors-middleware');
