@@ -372,3 +372,80 @@ produkt.html
 
 </html>
 ```
+# EKSTRA EKSTRA EKSTRA EKSTRA EKSTRA EKSTRA
+Til dem som deltog i mit oplæg fredag den 29. september 2017
+
+Route
+```javascript
+app.get('/sorted', function (req, res) {
+        var sql = `
+        select
+        type.navn as type,
+        fruit.navn, fruit.pris,
+        fruit.image
+        from fruit inner join type on fruit.fk_type = type.id
+        order by fruit.fk_type`;
+        db.query(sql, function (err, data) {
+            var json = [];
+            var prod = [];
+            var type = "";
+            var firsttime = true;
+            var count = data.length;
+            data.forEach(function (element, index) {
+                var newType = (element.type != type); // sæt newType lig med true eller false 
+                if (newType) { // hvis det er en ny type
+                    if (!firsttime) { // og det ikke er første gennemløb
+                        var stringProd = JSON.stringify(prod); // lav json-array om til string
+                        var stringType = `"type":"${type}"`;
+                        var obj = `{${stringType},"prod": ${stringProd}}`;
+                        json.push(JSON.parse(obj));
+                    }
+                    firsttime = false; // først gennemløb slut
+                    type = element.type; // husk type
+                    prod = []; // tøm listen med produkter
+                }
+                prod.push(JSON.parse(`{"navn":"${element.navn}", "pris":"${element.pris}", "image":"${element.image}"}`)); // indsæt produkt i produktlisten
+
+                // hvis det er sidste produkt, så sæt det på listen (bør laves som en function, da koden er en kopi af ovenstående)
+                if (count <= (index + 1)) {
+                    var stringProd = JSON.stringify(prod);
+                    var stringType = `"type":"${type}"`;
+                    var obj = `{${stringType},"prod": ${stringProd}}`;
+                    json.push(JSON.parse(obj));
+                }
+            }, this);
+
+            res.send(json);
+        })
+    })
+```
+fethc
+```javascript
+function hentData(type = 0) {
+    let url = 'http://localhost:1337/sorted';
+    fetch(url)
+        .then((response) => {
+            // grib svarets indhold (body) og send det som et json objekt til næste .then()
+            return response.json();
+        })
+        .then((data) => {
+            // nu er json objektet lagt ind i data variablen, udskriv data
+            console.log(data);
+            var type = '';
+            document.getElementById('content').innerHTML = "";
+            data.forEach(function (item) {
+                document.getElementById('content').innerHTML += `<h2>${item.type}</h2>`;
+                item.prod.forEach(function (prod) {
+                    document.getElementById('content').innerHTML += `
+                            <div>
+                                <b>${prod.navn}</b><br>
+                                pris: kr. ${prod.pris}<br>
+                                <img src="images/${prod.image}" width="60px" /> 
+                            </div>  
+                            `;
+                }, this);
+
+            })
+        })
+}
+``` 
