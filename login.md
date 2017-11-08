@@ -67,7 +67,7 @@ module.exports = (app) => {
     app.post('/login', (req, res) => {
         if (req.body.password !== '' && req.body.username !== '') {
             console.log(passwordHash.generate(req.body.password));
-            db.execute('SELECT idusers, password FROM users WHERE username = ?', [req.body.username], (selError, rows) => {
+            db.execute('SELECT id, password FROM users WHERE username = ?', [req.body.username], (selError, rows) => {
                 if (passwordHash.verify(req.body.password, rows[0].password)) {
                     crypto.randomBytes(256, (err, buf) => {
                         if (err) return res.status(500).end();
