@@ -73,9 +73,9 @@ module.exports = (app) => {
                         if (err) return res.status(500).end();
                         else {
                             const token = buf.toString('hex');
-                            db.execute('INSERT INTO accesstokens SET userid = ?, token = ?', [rows[0].idusers, token], (insError) => {
+                            db.execute('INSERT INTO accesstokens SET userid = ?, token = ?', [rows[0].id, token], (insError) => {
                                 if (insError) return res.status(500).end();
-                                else return res.send({ "ID": rows[0].idusers, "AccessToken": token });
+                                else return res.send({ "ID": rows[0].id, "AccessToken": token });
                             });
                         }
                     });
