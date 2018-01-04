@@ -178,6 +178,14 @@ Ekstraopgave:
 
 *(Husk reglerne)*
 
+**Hjælp:**<br>
+Definition af funktionen **hentAlleUrlParametre**:<br>
+https://github.com/rts-cmk/kode-eksempler/blob/master/eks_url_parameter_og_statisk_menu/js/funktioner.js
+
+Brug af funktionen **hentAlleUrlParametre**:<br>
+https://github.com/rts-cmk/kode-eksempler/blob/master/eks_url_parameter_og_statisk_menu/js/produkter.js
+
+
 * Vælg 3 af dine yndlings <b><a href='https://en.wikipedia.org/wiki/Care_Bears' target='_blank'>Care Bears</a></b><br>
 <b>Spørgsmål:</b> *Eeeej, altså. Behøver det virkelig at være Care Bears?*<br>
 <b>Svar:</b> *Nej, da!... Det er kun hvis du ønsker at gennemføre uddannelsen.*
