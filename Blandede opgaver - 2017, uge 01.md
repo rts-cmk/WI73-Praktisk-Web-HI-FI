@@ -254,7 +254,7 @@ Ekstraopgave
 
 ---
 
-### Opgave 10: Chat for schizofrene
+### Opgave 10: Simpel chat
 
 *(Husk reglerne)*
 
